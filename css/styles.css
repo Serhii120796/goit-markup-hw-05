@@ -456,7 +456,7 @@ body {
   border: 1px solid var(--customers-icon-color);
   border-radius: 4px;
 
-  transition-property: color, border;
+  transition-property: color, border-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
