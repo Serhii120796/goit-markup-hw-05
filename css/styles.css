@@ -464,9 +464,8 @@ body {
 .customers-link:hover,
 .customers-link:focus {
   color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-  borde-color: transition;
-}
+  border-color: var(--accent-color);
+ }
 
 .customers-icon {
   fill: currentColor;
