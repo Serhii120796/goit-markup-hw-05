@@ -288,7 +288,7 @@ body {
   /* z-index: ; */
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 1;
-  transition: opacity 250ms var(--timing-function);
+    transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
 }
 
 .backdrop.is-hidden {
@@ -456,7 +456,7 @@ body {
   border-color: var(--customers-icon-color);
   border-radius: 4px;
 
-  transition-property: color, border-color;
+  transition-property: border-color, color ;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
