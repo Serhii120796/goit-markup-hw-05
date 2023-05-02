@@ -465,7 +465,7 @@ body {
   width: 168px;
   height: 88px;
   color: var(--customers-icon-color);
-  border-color: var(--customers-icon-color);
+  border: 1px solid var(--customers-icon-color);
   border-radius: 4px;
 
   transition-property: border-color, color;
